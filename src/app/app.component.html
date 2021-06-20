@@ -1,0 +1,101 @@
+<mat-sidenav-container>
+  
+  <mat-sidenav-content>
+    <mat-toolbar>
+     <div fxHide.gt-xs>
+       <button mat-icon-button>
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>
+     <div>
+       <span>
+        
+         
+         <div fxLayoutAlign="end end" class="icon1">
+          <img src="assets/Komete.png">
+          <a style="font-size: 30px;"> Komete</a>
+          </div>
+          
+          <div class="name"><span style="font-size: 21px; color: rgb(230, 50, 50);">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BeLean</span></div>
+       </span>
+     </div>
+     <div fxFlex fxLayout fxLayoutAlign="center end"  fxHide.xs>
+        <ul fxLayout fxLayoutGap="20px" class="navigation-items">
+            <li>
+                 <a>
+                  <div fxLayoutAlign="center start" class="icon1">
+                  <mat-icon class="icon"><span class="material-icons">
+                    settings_suggest
+                    </span></mat-icon></div>
+                  <div class="name"><span  class="label">PRODUZIONE</span></div>
+                </a>
+            </li>
+            <li>
+
+              <a>
+                <div fxLayoutAlign="center start" class="icon1">
+                <mat-icon class="icon">assessment</mat-icon></div>
+                <div class="name"><span  class="label">STORICO</span></div>
+              </a>
+            </li>
+            <li>
+
+                <a>
+                  <div fxLayoutAlign="center start" class="icon1">
+                  <mat-icon class="icon">assignment_late</mat-icon></div>
+                  <div class="name"><span  class="label">TASK</span></div>
+                </a>
+              </li>
+            <li>
+
+                 <a>
+                  <div fxLayoutAlign="center start" class="icon1">
+                  <mat-icon class="icon">people</mat-icon></div>
+                  <div class="name"><span  class="label">LAVORATORI</span></div>
+                </a>
+            </li>
+
+            <li>
+               <a>
+                <div fxLayoutAlign="center start" class="icon1">
+                <mat-icon>settings</mat-icon></div>
+                <div class="name"><span  class="label">IMPOSTAZIONI</span></div>
+              </a>
+          </li>
+        </ul>
+     </div>
+   
+
+    <div>
+     <a style="text-align: right;">
+      <mat-icon class="icon">notifications_none</mat-icon>
+     </a>
+    </div>
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+     <div class="name1">
+      <ul fxLayout fxLayoutGap="20px" class="navigation-items">  
+          <li>
+            <a>
+              <div fxLayoutAlign="center start" class="icon1">
+              <mat-icon>person</mat-icon></div>
+              <div><span  class="label">MARIO ROSSI</span>
+              </div>
+              
+            </a>
+          </li>
+        
+         
+      </ul>
+   </div>
+
+   
+    </mat-toolbar>
+    <main>
+    </main>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<footer></footer>
+<router-outlet></router-outlet>
